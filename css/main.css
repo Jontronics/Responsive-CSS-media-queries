@@ -1,3 +1,12 @@
+@-webkit-viewport {width: device-width;}
+@-moz-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
+
+
+
 body {
   font-family: sans-serif;
 }
@@ -39,3 +48,138 @@ header {
 .content-three {
   background-color: green;
 }
+
+
+
+/*  480px breakpoint  */
+@media only screen and (min-width: 30em) {
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  .content-label {
+    padding: 10px;
+  }
+
+  header {
+    background-color: gray;
+    height: 60px;
+    padding: 0;
+  }
+
+  header {
+    margin-bottom: 10px;
+  }
+
+  .article-container {
+    height: 90%;
+    width: 100%;
+  }
+
+  .content-one {
+    background-color: red;
+    height: 400px;
+  }
+
+  .content-two {
+    background-color: blue;
+    width: 50%;
+    float: left;
+  }
+
+  .content-three {
+    background-color: green;
+    width: 50%;
+    float: right;
+  }
+
+  
+  
+  }
+
+/*  600px breakpoint  */
+@media only screen and (min-width: 38em) {
+  
+  
+  }
+
+/*  768px breakpoint  */
+@media only screen and (min-width: 48em) {
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  .content-label {
+    padding: 10px;
+  }
+
+  header {
+    background-color: gray;
+    height: 60px;
+    padding: 0;
+  }
+
+  header {
+    margin-bottom: 10px;
+  }
+
+  .article-container {
+    height: 90%;
+    width: 100%;
+  }
+  
+  .content-one {
+    background-color: red;
+    width: 40%;
+    display:inline-block;
+    position:relative;
+    height: 800px;
+  }
+
+  .content-two {
+    background-color: blue;
+    width: 30%;
+    float: left;
+    height: 800px;
+  }
+  
+  
+
+  .content-three {
+    background-color: green;
+    width: 30%;
+    float: right;
+    height: 800px;
+  }
+  
+  
+  }
+
+/*  992px breakpoint  */
+@media only screen and (min-width: 62em) {
+  
+  
+  }
+
+/*  1382px breakpoint  */
+@media only screen and (min-width: 86em) {
+   
+  
+  
+  }
+
+/*  high pixel ratio  */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+
+  }
+
+
+
+
+
+
+
+
